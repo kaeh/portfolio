@@ -42,4 +42,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BASE_BRANCH: main
           BRANCH: main
-          FOLDER: dist/cv
+          FOLDER: dist/apps/cv
