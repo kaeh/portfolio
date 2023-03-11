@@ -18,7 +18,6 @@ jobs:
           echo "NX_BASE=$(echo $(git rev-parse HEAD~1))"  >> $GITHUB_ENV
           echo "NX_HEAD=$(git rev-parse HEAD)" >> $GITHUB_ENV
       - run: npm ci
-
       - run: npx rome ci .
       - run: npx nx format:check
       - run: npx nx affected --target=lint --parallel=3
