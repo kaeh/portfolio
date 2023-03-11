@@ -9,7 +9,7 @@ jobs:
   verify-project:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
       - uses: actions/setup-node@v3
@@ -31,7 +31,7 @@ jobs:
     needs: verify-project
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
       - uses: actions/setup-node@v3
@@ -39,7 +39,7 @@ jobs:
           node-version: 18
           cache: "npm"
       - run: npm ci
-      - run: npx nx affected --target=build --parallel=3
+      - run: npx nx build cv --parallel=3 --base-href=\"/app-ideas/\"
       - uses: JamesIves/github-pages-deploy-action@releases/v2
         continue-on-error: true
         env:
