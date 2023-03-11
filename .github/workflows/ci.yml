@@ -15,7 +15,7 @@ jobs:
       - name: Derive NX_BASE and NX_HEAD manually
         shell: bash
         run: |
-          echo "NX_BASE=$(echo $(git merge-base origin/main HEAD))"  >> $GITHUB_ENV
+          echo "NX_BASE=$(echo $(git rev-parse HEAD~1))"  >> $GITHUB_ENV
           echo "NX_HEAD=$(git rev-parse HEAD)" >> $GITHUB_ENV
       - run: npm ci
 
@@ -24,3 +24,4 @@ jobs:
       - run: npx nx affected --target=lint --parallel=3
       - run: npx nx affected --target=test --parallel=3 --configuration=ci
       - run: npx nx affected --target=build --parallel=3
+x
