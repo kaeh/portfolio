@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  verify-project:
+  main:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -23,13 +23,3 @@ jobs:
       - run: npx nx affected --target=lint --parallel=3
       - run: npx nx affected --target=test --parallel=3 --configuration=ci
       - run: npx nx affected --target=build --parallel=3
-  deploy:
-    needs: verify-project
-    runs-on: ubuntu-latest
-    steps:
-      - uses: JamesIves/github-pages-deploy-action@releases/v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_BRANCH: main
-          BRANCH: master
-          FOLDER: dist/cv

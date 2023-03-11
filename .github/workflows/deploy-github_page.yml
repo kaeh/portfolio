@@ -25,6 +25,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_BRANCH: main
+          BASE_BRANCH: master
           BRANCH: master
           FOLDER: dist/cv
