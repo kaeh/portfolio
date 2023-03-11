@@ -41,5 +41,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BASE_BRANCH: main
-          BRANCH: main
+          BRANCH: gh-page
           FOLDER: dist/apps/cv
