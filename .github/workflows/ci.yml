@@ -31,8 +31,9 @@ jobs:
         with:
           fetch-depth: 0
       - run: npm ci
-      - run: npx nx build cv --parallel=3
+      - run: npx nx affected --target=build --parallel=3
       - uses: JamesIves/github-pages-deploy-action@releases/v2
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BASE_BRANCH: main
