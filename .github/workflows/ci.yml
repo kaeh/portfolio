@@ -24,4 +24,3 @@ jobs:
       - run: npx nx affected --target=lint --parallel=3
       - run: npx nx affected --target=test --parallel=3 --configuration=ci
       - run: npx nx affected --target=build --parallel=3
-x
