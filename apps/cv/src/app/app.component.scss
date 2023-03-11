@@ -1,3 +1,5 @@
+// @use "include-media";
+
 :host {
   $theme-color: #0c82a8;
 
@@ -16,4 +18,8 @@
     border-left: 25px solid $theme-color;
     padding-left: 5px;
   }
+
+  // TODO
+  // @include include-media.media(">phone", "<=tablet") {
+  // }
 }
