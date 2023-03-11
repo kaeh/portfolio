@@ -1,0 +1,11 @@
+:host {
+  height: 100%;
+  display: flex;
+  gap: 15px;
+
+  aside {
+    width: 30%;
+    background-color: #0c82a8;
+    color: white;
+  }
+}
