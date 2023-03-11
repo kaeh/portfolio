@@ -39,7 +39,7 @@ jobs:
           node-version: 18
           cache: "npm"
       - run: npm ci
-      - run: npx nx build cv --parallel=3 --base-href=\"/app-ideas/\"
+      - run: npx nx build cv --parallel=3 --base-href=\"/portfolio/\"
       - uses: JamesIves/github-pages-deploy-action@releases/v2
         continue-on-error: true
         env:
