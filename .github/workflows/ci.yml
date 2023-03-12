@@ -26,7 +26,10 @@ jobs:
       # - run: npx nx format:check
       - run: npx nx affected --target=lint --parallel=3
       - run: npx nx affected --target=test --parallel=3 --configuration=ci
-      - run: npx nx affected --target=build --parallel=3 --base-href=\"/portfolio/\"
+      - run: npx nx affected --target=build --parallel=3
+      # DISCLAIMER : Lame but temporary during usage of github pages
+      # Plus it's almost instant thanks to nx caching
+      - run: npx nx build cv --parallel=3 --base-href=\"/portfolio/\"
       - uses: JamesIves/github-pages-deploy-action@releases/v2
         continue-on-error: true
         env:
