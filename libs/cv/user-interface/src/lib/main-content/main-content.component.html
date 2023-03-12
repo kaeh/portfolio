@@ -1,0 +1,8 @@
+<h1 *ngIf="identity$ | async as identity" class="identity">
+  {{ identity.firstName | titlecase }} {{ identity.lastName | uppercase }}
+</h1>
+
+<kaeh-professional-experiences
+  *ngIf="professionalExperiences$ | async as professionalExperiences"
+  [data]="professionalExperiences"
+/>

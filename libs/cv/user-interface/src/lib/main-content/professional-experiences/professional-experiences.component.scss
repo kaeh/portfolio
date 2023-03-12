@@ -1,0 +1,16 @@
+:host {
+  display: block;
+
+  section {
+    header {
+    }
+
+    article {
+      white-space: pre-line;
+    }
+  }
+
+  li::before {
+    content: '\2713';
+  }
+}

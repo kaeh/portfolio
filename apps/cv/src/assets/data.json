@@ -1,4 +1,8 @@
 {
+  "identity": {
+    "firstName": "corentin",
+    "lastName": "grosdemouge"
+  },
   "asideContent": [
     {
       "title": "Informations personnelles",
@@ -47,5 +51,18 @@
       "title": "Centres d'intérêt",
       "content": [{ "icon": "assets/climber.png", "text": "Escalade" }]
     }
-  ]
+  ],
+  "mainContent": {
+    "professionalExperience": [
+      {
+        "jobTitle": "Ingénieur d'études et de développement",
+        "employer": "EQUITY SAS",
+        "contractType": "CDI",
+        "date": {
+          "start": "2021-05-01"
+        },
+        "description": "Continuité de la mission pour BPGO :\r\n* Remplacement de Storybook par une application de documentations interne séparée en deux micro-front-end grâce au principe de Module Federation d'Angular."
+      }
+    ]
+  }
 }

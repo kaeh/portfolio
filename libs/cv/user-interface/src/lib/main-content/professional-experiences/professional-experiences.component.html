@@ -1,0 +1,18 @@
+<section *ngFor="let datum of data">
+  <header>
+    <div>
+      <p>{{ datum.jobTitle }}</p>
+      <p>{{ datum.employer }}</p>
+    </div>
+    <div>
+      {{ datum.date.start | date : 'MMM y' }}
+      -
+      <ng-container *ngIf="datum.date.end as endDate; else today">
+        {{ datum.date.end | date : 'MMM y' }}
+      </ng-container>
+      <ng-template #today>auj.</ng-template>
+    </div>
+  </header>
+
+  <article [innerHTML]="datum.description"></article>
+</section>

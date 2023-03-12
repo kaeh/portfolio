@@ -5,5 +5,9 @@
     "rules": {
       "recommended": true
     }
+  },
+  "formatter": {
+    "lineWidth": 130,
+    "ignore": ["dist"]
   }
 }

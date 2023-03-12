@@ -1,9 +1,9 @@
 import { Component } from "@angular/core";
-import { CvAsideInformationsComponent } from "@kaeh/cv/user-interface";
+import { CvAsideInformationsComponent, CvMainContentComponent } from "@kaeh/cv/user-interface";
 
 @Component({
   standalone: true,
-  imports: [CvAsideInformationsComponent],
+  imports: [CvAsideInformationsComponent, CvMainContentComponent],
   selector: 'kaeh-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],

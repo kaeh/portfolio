@@ -1,11 +1,5 @@
 import { NgIf, NgOptimizedImage } from "@angular/common";
-import {
-	ChangeDetectionStrategy,
-	Component,
-	HostBinding,
-	Input,
-	OnInit,
-} from "@angular/core";
+import { ChangeDetectionStrategy, Component, HostBinding, Input, OnInit } from "@angular/core";
 
 const ContainsAssetsOrDotOrSlashRegexp = /assets|\.|\//;
 
