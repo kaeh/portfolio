@@ -7,7 +7,7 @@ import {
 	OnInit,
 } from "@angular/core";
 
-const ContainsAssetsOrDotOrSlashRegexp = /assets|\.|\//gm;
+const ContainsAssetsOrDotOrSlashRegexp = /assets|\.|\//;
 
 @Component({
   selector: 'kaeh-text-with-icon',
@@ -26,5 +26,6 @@ export class TextWithIconComponent implements OnInit {
 
 	ngOnInit() {
 		this.isIcon = !ContainsAssetsOrDotOrSlashRegexp.test(this.icon);
+		console.log(this.icon, this.isIcon);
 	}
 }
