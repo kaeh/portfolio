@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@kaeh/cv/shared": ["libs/cv/shared/src/index.ts"],
       "@kaeh/cv/user-interface": ["libs/cv/user-interface/src/index.ts"]
     }
   },
