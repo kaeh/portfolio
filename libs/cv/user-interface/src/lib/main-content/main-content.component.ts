@@ -33,6 +33,6 @@ export class CvMainContentComponent {
 const replaceAsteriskInDescriptionBy = (replacement: string) => (value: ProfessionalExperience): ProfessionalExperience => {
 	return {
 		...value,
-		description: value.description.replace("*", replacement),
+		description: value.description.replace(/\*/gm, replacement),
 	};
 };

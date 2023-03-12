@@ -1,10 +1,10 @@
 <section *ngFor="let datum of data">
   <header>
-    <div>
-      <p>{{ datum.jobTitle }}</p>
-      <p>{{ datum.employer }}</p>
+    <div class="job-informations">
+      <h3 class="job-title">{{ datum.jobTitle }}</h3>
+      <h4 class="employer">{{ datum.employer }}</h4>
     </div>
-    <div>
+    <div class="date">
       {{ datum.date.start | date : 'MMM y' }}
       -
       <ng-container *ngIf="datum.date.end as endDate; else today">

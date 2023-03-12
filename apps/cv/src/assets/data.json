@@ -59,9 +59,29 @@
         "employer": "EQUITY SAS",
         "contractType": "CDI",
         "date": {
-          "start": "2021-05-01"
+          "start": "2021-06-01"
         },
         "description": "Continuité de la mission pour BPGO :\r\n* Remplacement de Storybook par une application de documentations interne séparée en deux micro-front-end grâce au principe de Module Federation d'Angular."
+      },
+      {
+        "jobTitle": "Ingénieur d'études et de développement",
+        "employer": "Max Digital Services",
+        "contractType": "CDI",
+        "date": {
+          "start": "2017-10-01",
+          "end": "2021-05-01"
+        },
+        "description": "Mission pour le client Banque Populaire du Grand Ouest (BPGO) :\r\n* Référent technique Angular\r\n* Création et maintenance applicative d’applications web à destination des collaborateurs BPGO\r\n* Maintenance et évolution du socle technique Angular interne utilisé par les applications web internes\r\n* Créations d’outils à destination des développeurs de l’équipe afin de faciliter la création et le développement des projets tels que des Schematics Angular d'update (ng update) ou de création de projet ou divers scripts JS.\r\nPar exemple, un script créant les interfaces et les services Angular permettant de communiquer avec une API, en lisant le contenu JSON exposé par son Swagger.\r\n* Création des pipelines de CI/CD avec Azure Devops pour les applications Web\r\n* Mise en place d'un Storybook pour le socle technique Angular interne\r\n* Mise en place des pratiques de Lint (ESLint et RomeTools) ainsi que Prettier\r\n* Présentations techniques pour la partie Angular\r\n* Migrations techniques des versions d'Angular (8 à 15)\r\n* Migration architecturale des projets au profit de workspaces NX\r\n\r\nMission pour le client HelloWork :\r\n* Refonte de l’application de gestion des chargé.e.s de clientèle en Angular / ASP.NetCore + Création du cycle d’intégration continue et de déploiement continu via Gitlab-CI\r\n* Développement d'une application à destination des clients, en Angular / ASP.NetCore + Création du cycle d’intégration continue et de déploiement continu via Gitlab-CI\r\n* Développements réguliers sur l’API de ces deux projets en ASP.Net Framework / Entity Framework\r\n\r\nMission au sein de SOPRA STERIA pour le client Orange Business :\r\n* Migration du packaging d'un projet de Grunt vers Webpack\r\n* Évolution et maintenance de l'existant afin de rajouter une nouvelle vue de parc sous forme de tableau. Utilisation du plugin 'Ag-Grid' pour mettre en place cette vue et ajout de web services ASP.Net."
+      },
+      {
+        "jobTitle": "Développeur web",
+        "employer": "Niji",
+        "contractType": "CDI",
+        "date": {
+          "start": "2015-03-01",
+          "end": "2017-09-01"
+        },
+        "description": "Développeur Web fullstack en poste de maintenance applicative et évolutive.\r\nLanguages utilisés : \r\n* PHP (Drupal 7 & Wordpress)\r\n* HTML, CSS, JS\r\n* AngularJS\r\n* Framework Ionic\r\n* SQL\r\n\r\nCMS utilisé :\r\n* Drupal 7\r\n* Wordpress"
       }
     ]
   }

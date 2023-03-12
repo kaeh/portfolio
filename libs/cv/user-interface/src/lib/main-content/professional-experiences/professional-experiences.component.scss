@@ -1,12 +1,38 @@
 :host {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 5px;
 
   section {
     header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+
+      .employer,
+      .date {
+        color: var(--theme-color);
+      }
+
+      .employer {
+        font-size: smaller;
+        margin: 0;
+      }
+
+      .job-title {
+        margin: 0;
+      }
+
+      .job-informations {
+        margin-bottom: 15px;
+      }
     }
 
     article {
       white-space: pre-line;
+      text-align: justify;
     }
   }
 

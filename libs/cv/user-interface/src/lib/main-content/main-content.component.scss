@@ -1,3 +1,10 @@
 :host {
   display: block;
+  padding-right: 15px;
+
+  .identity {
+    font-size: xxx-large;
+    color: var(--theme-color);
+    text-align: center;
+  }
 }
