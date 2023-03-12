@@ -17,35 +17,35 @@
     {
       "title": "Framework",
       "content": [
-        { "icon": "/assets/frameworks/angular.png", "text": "Angular" },
-        { "icon": "/assets/frameworks/dotnet_core.png", "text": ".NET Core" },
-        { "icon": "/assets/frameworks/nestjs.png", "text": "Nest" },
-        { "icon": "/assets/frameworks/svelte.png", "text": "Svelte" },
-        { "icon": "/assets/frameworks/react.png", "text": "React" }
+        { "icon": "assets/frameworks/angular.png", "text": "Angular" },
+        { "icon": "assets/frameworks/dotnet_core.png", "text": ".NET Core" },
+        { "icon": "assets/frameworks/nestjs.png", "text": "Nest" },
+        { "icon": "assets/frameworks/svelte.png", "text": "Svelte" },
+        { "icon": "assets/frameworks/react.png", "text": "React" }
       ]
     },
     {
       "title": "Languages",
       "content": [
-        { "icon": "/assets/languages/typescript.png", "text": "Typescript" },
-        { "icon": "/assets/languages/javascript.png", "text": "Javascript" },
-        { "icon": "/assets/languages/c_sharp.png", "text": "C#" },
-        { "icon": "/assets/languages/html.png", "text": "HTML" },
-        { "icon": "/assets/languages/css.png", "text": "CSS/SASS" },
-        { "icon": "/assets/languages/python.png", "text": "Python" },
-        { "icon": "/assets/languages/rust.png", "text": "Rust" }
+        { "icon": "assets/languages/typescript.png", "text": "Typescript" },
+        { "icon": "assets/languages/javascript.png", "text": "Javascript" },
+        { "icon": "assets/languages/c_sharp.png", "text": "C#" },
+        { "icon": "assets/languages/html.png", "text": "HTML" },
+        { "icon": "assets/languages/css.png", "text": "CSS/SASS" },
+        { "icon": "assets/languages/python.png", "text": "Python" },
+        { "icon": "assets/languages/rust.png", "text": "Rust" }
       ]
     },
     {
       "title": "Librairies",
       "content": [
-        { "icon": "/assets/libraries/rxjs.png", "text": "RxJS" },
-        { "icon": "/assets/libraries/rx.png", "text": "RX" }
+        { "icon": "assets/libraries/rxjs.png", "text": "RxJS" },
+        { "icon": "assets/libraries/rx.png", "text": "RX" }
       ]
     },
     {
       "title": "Centres d'intérêt",
-      "content": [{ "icon": "/assets/climber.png", "text": "Escalade" }]
+      "content": [{ "icon": "assets/climber.png", "text": "Escalade" }]
     }
   ]
 }

@@ -7,6 +7,8 @@ import {
 	OnInit,
 } from "@angular/core";
 
+const ContainsAssetsOrDotOrSlashRegexp = /assets|\.|\//gm;
+
 @Component({
   selector: 'kaeh-text-with-icon',
   standalone: true,
@@ -23,6 +25,6 @@ export class TextWithIconComponent implements OnInit {
 	protected readonly cssClasses = "text-with-icon";
 
 	ngOnInit() {
-		this.isIcon = !this.icon.startsWith("/");
+		this.isIcon = !ContainsAssetsOrDotOrSlashRegexp.test(this.icon);
 	}
 }
