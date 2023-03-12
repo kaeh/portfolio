@@ -1,4 +1,4 @@
-name: CI
+name: CI/CD
 on:
   push:
     branches:
@@ -6,7 +6,7 @@ on:
   pull_request:
 
 jobs:
-  verify-project:
+  verify-and-deploy-repo:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
