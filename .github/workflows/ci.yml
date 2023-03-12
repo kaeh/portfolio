@@ -26,20 +26,7 @@ jobs:
       # - run: npx nx format:check
       - run: npx nx affected --target=lint --parallel=3
       - run: npx nx affected --target=test --parallel=3 --configuration=ci
-      - run: npx nx affected --target=build --parallel=3
-  deploy:
-    needs: verify-project
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: "npm"
-      - run: npm ci
-      - run: npx nx build cv --parallel=3 --base-href=\"/portfolio/\"
+      - run: npx nx affected --target=build --parallel=3 --base-href=\"/portfolio/\"
       - uses: JamesIves/github-pages-deploy-action@releases/v2
         continue-on-error: true
         env:

@@ -8,6 +8,6 @@ export class CvDataService {
 	private readonly _http = inject(HttpClient);
 
 	getCvData(): Observable<CvData> {
-		return this._http.get<CvData>("/assets/data.json");
+		return this._http.get<CvData>("assets/data.json");
 	}
 }
