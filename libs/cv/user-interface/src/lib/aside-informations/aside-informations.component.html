@@ -1,2 +1,6 @@
 <kaeh-photo />
-<kaeh-personal-informations />
+
+<kaeh-aside-block
+  *ngIf="asideContent$ | async as asideContent"
+  [data]="asideContent"
+/>

@@ -1,0 +1,44 @@
+{
+  "asideContent": [
+    {
+      "title": "Informations personnelles",
+      "content": [
+        { "icon": "home", "text": "36, rue du champs des demoiselles" },
+        { "icon": "car", "text": "Permis B" }
+      ]
+    },
+    {
+      "title": "Languages",
+      "content": [
+        { "icon": "/assets/languages/typescript.png", "text": "Typescript" },
+        { "icon": "/assets/languages/javascript.png", "text": "Javascript" },
+        { "icon": "/assets/languages/c_sharp.png", "text": "C#" },
+        { "icon": "/assets/languages/html.png", "text": "HTML" },
+        { "icon": "/assets/languages/css.png", "text": "CSS/SASS" },
+        { "icon": "/assets/languages/python.png", "text": "Python" },
+        { "icon": "/assets/languages/rust.png", "text": "Rust" }
+      ]
+    },
+    {
+      "title": "Framework",
+      "content": [
+        { "icon": "", "text": "Angular" },
+        { "icon": "", "text": ".NET" },
+        { "icon": "", "text": "Nest" },
+        { "icon": "", "text": "Svelte" },
+        { "icon": "", "text": "React" }
+      ]
+    },
+    {
+      "title": "Librairies",
+      "content": [
+        { "icon": "", "text": "RxJS" },
+        { "icon": "", "text": "RX" }
+      ]
+    },
+    {
+      "title": "Centres d'intérêt",
+      "content": [{ "icon": "", "text": "Escalade" }]
+    }
+  ]
+}

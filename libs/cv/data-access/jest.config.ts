@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-	displayName: "cv-user-interface",
+	displayName: "cv-data-access",
 	preset: "../../../jest.preset.js",
 	setupFilesAfterEnv: ["<rootDir>/src/test-setup.ts"],
-	coverageDirectory: "../../../coverage/libs/cv/user-interface",
+	coverageDirectory: "../../../coverage/libs/cv/data-access",
 	transform: {
 		"^.+\\.(ts|mjs|js|html)$": [
 			"jest-preset-angular",

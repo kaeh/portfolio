@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+
+  h2 {
+    text-align: center;
+  }
+
+  .text-with-icon {
+    height: 30px;
+    margin-left: 15px;
+  }
+}

@@ -1,0 +1,10 @@
+<ng-container *ngFor="let datum of data">
+  <h2>{{ datum.title }}</h2>
+
+  <kaeh-text-with-icon
+    *ngFor="let content of datum.content"
+    [icon]="content.icon"
+  >
+    {{ content.text }}
+  </kaeh-text-with-icon>
+</ng-container>
