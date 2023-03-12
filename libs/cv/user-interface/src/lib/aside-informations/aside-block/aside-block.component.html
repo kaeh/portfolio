@@ -4,6 +4,7 @@
   <kaeh-text-with-icon
     *ngFor="let content of datum.content"
     [icon]="content.icon"
+    [style.height]="content.customHeight"
   >
     {{ content.text }}
   </kaeh-text-with-icon>

@@ -3,8 +3,25 @@
     {
       "title": "Informations personnelles",
       "content": [
-        { "icon": "home", "text": "36, rue du champs des demoiselles" },
+        { "icon": "at", "text": "corentin.grosdemouge@gmail.com" },
+        { "icon": "phone", "text": "06 17 42 21 43" },
+        {
+          "icon": "home",
+          "text": "36, rue du champs des demoiselles\r\n35590 LA CHAPELLE THOUARAULT",
+          "customHeight": "45px"
+        },
+        { "icon": "calendar", "text": "21 Mars 1992" },
         { "icon": "car", "text": "Permis B" }
+      ]
+    },
+    {
+      "title": "Framework",
+      "content": [
+        { "icon": "/assets/frameworks/angular.png", "text": "Angular" },
+        { "icon": "/assets/frameworks/dotnet_core.png", "text": ".NET Core" },
+        { "icon": "/assets/frameworks/nestjs.png", "text": "Nest" },
+        { "icon": "/assets/frameworks/svelte.png", "text": "Svelte" },
+        { "icon": "/assets/frameworks/react.png", "text": "React" }
       ]
     },
     {
@@ -20,25 +37,15 @@
       ]
     },
     {
-      "title": "Framework",
-      "content": [
-        { "icon": "", "text": "Angular" },
-        { "icon": "", "text": ".NET" },
-        { "icon": "", "text": "Nest" },
-        { "icon": "", "text": "Svelte" },
-        { "icon": "", "text": "React" }
-      ]
-    },
-    {
       "title": "Librairies",
       "content": [
-        { "icon": "", "text": "RxJS" },
-        { "icon": "", "text": "RX" }
+        { "icon": "/assets/libraries/rxjs.png", "text": "RxJS" },
+        { "icon": "/assets/libraries/rx.png", "text": "RX" }
       ]
     },
     {
       "title": "Centres d'intérêt",
-      "content": [{ "icon": "", "text": "Escalade" }]
+      "content": [{ "icon": "/assets/climber.png", "text": "Escalade" }]
     }
   ]
 }

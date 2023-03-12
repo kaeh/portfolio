@@ -2,4 +2,8 @@
   display: flex;
   gap: 15px;
   align-items: center;
+
+  p {
+    white-space: pre-line;
+  }
 }
